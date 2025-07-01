@@ -1,4 +1,8 @@
 'use client';
+
+export const dynamic = 'force-dynamic';
+export const prerender = false;
+
 import { useState, useEffect } from 'react';
 import { useRouter, useParams, useSearchParams } from 'next/navigation';
 import Navigation from '../../components/Navigation';
